@@ -1,0 +1,54 @@
+body{
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#survey-form{
+    background-color: rgb(203, 238, 240);
+    box-sizing: content-box;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+label,fieldset,textarea,input{
+    margin: 15px;
+    padding: 10px;
+}
+fieldset,textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+}
+textarea{
+    width: 97.5%;
+}
+#name,#email,#number,#submit{
+    width: 97.5%;
+    border: none;
+    border-radius: 5px;
+}
+#dropdown{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+}
+#submit{
+    width: 10vw;
+    font-weight: bold;
+    background-color: cyan;
+}
+#submit:hover{
+    background-color: rgb(62, 185, 185);
+    width: 10.1vw;
+}
+h1,p{
+    text-align: center;
+    font-size: 300%;
+    font-weight: bolder;
+}
+p{
+    font-weight: 50;
+    font-size: smaller;
+}

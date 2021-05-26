@@ -1,0 +1,54 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+#navbar{
+    display:block;
+    width: 100%;
+    height: 1cm;
+    background-color: rgb(216, 162, 92);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+
+}
+#welcome-section{
+    box-sizing: content-box;
+    width: 100%;
+    height:100vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+img{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    width: 30vw;
+}
+#projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#Project{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+nav>a{
+    color: white;
+}
+@media screen and (max-width:850px){
+    #welcome-section{
+        color: crimson;
+        background-color: darkgray;
+    }
+}
